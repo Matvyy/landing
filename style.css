@@ -1,0 +1,164 @@
+body{
+    background-color: rgb(201, 201, 248);
+
+    font-size: 20px;
+    font-weight: 700; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+} 
+
+
+
+a{
+    color:rgb(50, 50, 66);
+    text-decoration: none;
+}
+
+a:hover{
+    color:brown;
+}
+
+a active{
+    color:white;
+}
+
+.jopa{
+    height: 150px;
+     border-radius: 30px; 
+    box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.25);
+}
+
+.secondJopa{
+font-weight: bold; 
+text-decoration: none;
+text-transform: none;
+letter-spacing: 1.1px;
+}
+
+
+.minin{
+    background: rgb(245, 253, 171);
+    padding: 10px;
+    padding-left: 30px;
+    border: 3px solid black;
+}
+
+.ban{
+   max-width: 80%;
+   margin:auto;
+}
+
+.box-model > div{
+    float: left;
+    background-color: white;
+    border: 1px solid black;
+    height: 300px;
+    width: 25%;
+    box-sizing: border-box;
+ }
+
+ .card{
+    padding: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    /* padding-left: 30px; */
+    border: 3px solid black;
+    margin-bottom: 30px;
+    border-radius: 30px;
+ }
+
+.bg1{
+    background:rgb(168, 253, 168);
+}
+
+.bg2{
+    background:rgb(162, 252, 162);
+}
+
+.bg3{
+    background:rgb(155, 253, 155);
+}
+
+@media(max-width: 700px)
+{
+    .secondJopa{
+    text-align: center;
+    margin-bottom: 20px;
+}
+}
+
+
+.card h2{
+margin-bottom: 40px;
+}
+
+.list li{
+    color:rgb(24, 18, 18);
+    margin-bottom: 20px;
+}
+
+.table {
+    width: 60%;
+}
+
+.table td{
+    margin-bottom: 15px;
+}
+
+.connect h2{
+    text-align: left 30px;
+
+}
+
+.con label{
+    margin-right: 62px;
+    display: block;
+}
+
+.con input, 
+.con textarea{
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(78, 76, 76);
+    width: 50%;
+    outline: none;
+    padding: 10px 10px;
+}
+
+.con{
+    margin-bottom: 15px;
+
+}
+
+.secondJopa{
+    display:flex;
+    padding-top: 60px;
+}
+
+.textJopa{
+    margin-left: 30px;
+}
+
+.button{
+    background: black;
+    color: white;
+    border-radius: 35px;
+}
+
+
+.dod{
+    position: relative;
+    border: 3px solid black;
+    padding: 300px;
+}
+
+.box{
+   width: 50px; 
+   height: 50px;
+   background-color: blueviolet;
+   position: fixed;
+   right: 50px;
+   bottom:50px;
+   border-radius: 50%;
+   /* top:50px;
+   left: 10px; */
+}
